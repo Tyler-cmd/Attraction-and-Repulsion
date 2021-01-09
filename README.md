@@ -26,5 +26,6 @@ function Ship(x,y) {
     this.vel = createVector(0, 1);
     this.Leftupdate = function() {
         this.pos.add(this.vel);
+        this.pos.x-=5;
     }
 }
